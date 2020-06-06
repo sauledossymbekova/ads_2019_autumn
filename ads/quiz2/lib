@@ -1,0 +1,88 @@
+Стандартная библиотека языка программирования C++
+Ввод-вывод:
+fstream
+iomanip
+ios
+iosfwd
+iostream (ostream, istream)
+sstream
+streambuf
+Многопоточность:
+atomic (C++11)
+condition_variable (C++11)
+future (C++11)
+mutex (C++11)
+shared_mutex (C++14)
+thread (C++11)
+Прочие:
+algorithm
+bitset
+chrono (C++11)
+codecvt (C++11)
+complex
+exception
+functional
+initializer_list (C++11)
+iterator
+limits
+locale
+memory
+new
+numeric
+random (C++11)
+ratio (C++11)
+regex (C++11)
+stdexcept
+string
+system_error (C++11)
+tuple (C++11)
+typeindex (C++11)
+typeinfo
+type_traits (C++11)
+utility
+valarray
+Стандартная библиотека шаблонов
+Последовательные контейнеры:
+array (C++11)
+deque
+forward_list (C++11)
+list
+vector, vector<bool>
+Ассоциативные контейнеры:
+map
+set
+multimap
+multiset
+unordered_map (C++11)
+unordered_set (C++11)
+unordered_multimap (C++11)
+unordered_multiset (C++11)
+Контейнеры-адаптеры:
+stack
+priority_queue
+queue
+Стандартная библиотека языка программирования Си
+cassert
+cctype
+cerrno
+cfenv (C++11)
+cfloat
+cinttypes (C++11)
+ciso646
+climits
+clocale
+cmath
+csetjmp
+csignal
+cstdarg
+cstdbool (C++11)
+cstddef
+cstdint (C++11)
+cstdio
+cstdlib
+cstring
+ctgmath (C++11)
+ctime
+cuchar (C++11)
+cwchar
+cwctype

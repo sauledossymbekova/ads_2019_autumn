@@ -1,0 +1,88 @@
+#include <iostream>
+#include "stdc++.h"
+#define F first
+#define ll long long
+using namespace std;
+typedef vector<int> vi;
+int main(){
+    ios::sync_with_stdio(0); //[1]
+    cin.tie(0);
+
+    return 0;
+}
+LIFE.CPP
+INPUT.cpp
+
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    vector<string> my_relationship;
+    bool love = true;
+    string man;
+    char boy[200];
+    while(love){
+        scanf("%s", &boy);
+        man=boy;
+        if(man == "done") love=false; 
+        my_relationship.push_back(man);
+    }
+    for (vector<string>::iterator it = my_relationship.begin() ; it!=my_relationship.end() ; ++it)
+        cout<<*it<< "\n";
+}
+
+//g++ -std=c++11 -O2 -Wall a.cpp -O test
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <queue>
+#include <set>
+#include <tuple>
+#include <stdexcept>
+#define F first 
+#define S second 
+#define PB push_back 
+#define MP make_pair
+#define REP(i,a,b) for (int i = a; i < b; i++)
+#define REPR(i,a,n) for(int i = (a); i >= (n); --i)
+#define REPS(i,n) for(auto it = n.begin(); it != n.end(); ++it)
+#define ll long long
+#define sz(x) (int)((x).size())
+#define all(x) (x).begin(), (x).end()
+using namespace std;
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+typedef queue<int> qi;
+typedef long double ld;
+typedef int128 __int128_t 
+const int N = (int)3e5 + 1;
+const int inf = (int)1e9 + 1;
+int main(){
+   // ios::sync_with_stdio(0); //[1]
+   // cin.tie(0);cout.tie(0);
+    int a,b;
+    scanf("%d %d", &a, &b);
+    string s;
+    getline(cin,s);
+    printf("%d %d\n",a,b);
+    printf("%s\n", s.c_str());
+    int x;
+    while(cin>>x){
+        //code
+    }
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "r", stdout);
+    ll aa= 123456789123456789LL;
+    int128 bb;
+    
+    return 0; 
+}
+//g++ -std=c++11 -O2 -Wall a.cpp -O test
+//g++ -std=c++11 -O2 -Wall a.cpp
+//g++ -O2 a.cpp
+
+//[1] - https://codeforces.com/blog/entry/5217?locale=ru
+
+GRAPH.cpp
+
